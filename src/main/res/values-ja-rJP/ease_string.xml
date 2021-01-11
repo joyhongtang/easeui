@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 日语!-->
+    <string name="video_call">ビデオ通話</string>
+    <string name="delete_friend">友達を削除</string>
+    <string name="delete_friend_notice">この友達を削除してもよろしいですか ?</string>
+    <string name="add_friend_error_notice">追加が必要なメンバーは、ビデオと音声トークを登録していません</string>
+    <string name="add_friend_empty_notice">アカウントを入力してください</string>
+    <string name="im_video_call">ビデオ通話</string>
+    <string name="im_voice_call">音声電話</string>
+    <string name="im_del_friend">友達を削除</string>
+    <string name="im_my_friend">私の友人</string>
+    <string name="im_group_chat">グループチャット</string>
+    <string name="im_recent_call">最近の通話</string>
+    <string name="add_friend_notice1">友人を追加する</string>
+    <string name="add_friend_notice2">以下にアカウントアドレスを入力してください</string>
+    <string name="update_account_title">ニッカー名を更新</string>
+    <string name="update_account_title_notice">以下にニッカー名を入力してください</string>
+    <string name="im_call_to">おしゃべり人</string>
+    <string name="im_call_start_time">チャット時間</string>
+    <string name="im_call_during">チャット時間</string>
+    <string name="im_call_type">チャットタイプ</string>
+    <string name="im_call_type_sel_friend">友達を選択してください</string>
+    <string name="im_call_type_sel_unable">選択した友達はすでにチャット中です</string>
+    <string name="im_video_call_tag">ビデオ</string>
+    <string name="im_voice_call_tag">ボイス</string>
+    <string name="tips_invite_to_join_fix">参加するように誘う</string>
+    <string name="create_and_join_success">会議の成功を作成して参加する </string>
+    <string name="create_and_join_fail">会議の作成および参加に失敗したエラー </string>
+    <!--Device controller error-->
+    <string name="e101">デバイスが見つかりません</string>
+    <string name="e102">端末の更新に失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="e103">ユーザーとデバイスの関係が見つかりません</string>
+    <string name="e104">ユーザーステータスの更新に失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="e105">ユーザーは削除されました</string>
+    <string name="e106">未知の</string>
+    <string name="e107">ユーザーデバイスの関係の更新に失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="e108">デバイスは既にバインドされています</string>
+    <string name="e109">ユーザーが見つかりません</string>
+    <string name="e110">デバイス名の更新に失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="e111">端末ステータスの更新に失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="e112">注文が見つかりません</string>
+    <string name="e113">結果が見つかりません</string>
+    <string name="e114">要求は拒否されました</string>
+    <string name="e115">無効なリクエスト</string>
+    <string name="e116">未知の</string>
+    <string name="e117">バインドされたユーザー数が制限を超えています</string>
+    <string name="e118">最新版です</string>
+    <string name="e119">シリアル番号エラー</string>
+    <string name="e120">デバイスが起動しています</string>
+    <string name="e121">デバイスが存在しません</string>
+    <string name="e122">残高不足</string>
+    <string name="e123">不十分なデータフロー</string>
+    <string name="e124">ユーザーがロックされました</string>
+    <string name="e125">デバイスが新規ユーザーのバインドを拒否しました</string>
+    <string name="e126">装置はバインドされており、再度バインドすることはできません</string>
+    <string name="e127">束縛タイプエラー</string>
+    <string name="e128">会社名エラー</string>
+    <string name="e129">バインドを受け入れられませんでした</string>
+    <string name="e130">バインディングタイプエラーを受け入れる</string>
+    <string name="e131">デバイスはアクティブ化されていて再アクティブ化できません</string>
+    <string name="e132">デバイスが起動していません</string>
+    <string name="e133">デバイスはアクティブ化されていて再アクティブ化できません</string>
+    <string name="e134">デバイス名は既に存在します</string>
+    <string name="e135">デバイスはアクティブ化されていて再アクティブ化できません</string>
+    <!--Upload controller error-->
+    <string name="e313">ユーザーIDプロパティフォーマットエラー</string>
+    <string name="e318">データベースへのファイルURLの保存に失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="e327">ユーザーバインドデバイスの変更</string>
+    <!--User controller error-->
+    <string name="e404">ユーザープロフィールの更新に失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="e405">ユーザーが見つかりません</string>
+    <string name="e406">アプリケーションが見つかりません</string>
+    <string name="e407">メールユーザーを登録できません</string>
+    <string name="e408">確認コードのタイムアウト</string>
+    <string name="e409">確認コードエラー</string>
+    <string name="e410">ユーザー名は既に存在します</string>
+    <string name="e411">ユーザーのメールアドレスは既に存在します</string>
+    <string name="e412">ユーザーのメールアドレスが存在しません</string>
+    <string name="e413">データベースの更新に失敗しました</string>
+    <string name="e414">間違ったパスワード</string>
+    <string name="e415">ユーザー名は既に存在します</string>
+    <string name="e416">メールを送信できませんでした</string>
+    <string name="e417">ユーザープッシュトークンまたはプラットフォームエラー</string>
+    <string name="e418">ユーザーはオフラインです</string>
+    <!--Service error-->
+    <string name="e901">ファイルが存在しません</string>
+    <string name="e902">ファイルが既に存在します</string>
+    <string name="error_code">エラーコード: %1$d</string>
+</resources>

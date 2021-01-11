@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 意大利语!-->
+    <string name="video_call">Video chiamata</string>
+    <string name="delete_friend">Elimina amico</string>
+    <string name="delete_friend_notice">Sei sicuro di eliminare questo amico ?</string>
+    <string name="add_friend_error_notice">Il membro che devi aggiungere non registra video e voice talk</string>
+    <string name="add_friend_empty_notice">Per favore, inserisci un account</string>
+    <string name="im_video_call">Video chiamata</string>
+    <string name="im_voice_call">Chiamata vocale</string>
+    <string name="im_del_friend">Elimina amico</string>
+    <string name="im_my_friend">Miei amici</string>
+    <string name="im_group_chat">Chat di gruppo</string>
+    <string name="im_recent_call">Chiamate recenti</string>
+    <string name="add_friend_notice1">Aggiungi amico</string>
+    <string name="add_friend_notice2">Inserisci l\'indirizzo dell\'account di seguito</string>
+    <string name="update_account_title">Aggiorna il nome del nicker</string>
+    <string name="update_account_title_notice">Inserisci il nome del nicker di seguito</string>
+    <string name="im_call_to">Persona in chat</string>
+    <string name="im_call_start_time">Tempo di chat</string>
+    <string name="im_call_during">Durata della chat</string>
+    <string name="im_call_type">Tipo di chat</string>
+    <string name="im_call_type_sel_friend">Si prega di selezionare l\'amico</string>
+    <string name="im_call_type_sel_unable">L\'amico selezionato è già in chat</string>
+    <string name="im_video_call_tag">video</string>
+    <string name="im_voice_call_tag">Voce</string>
+    <string name="tips_invite_to_join_fix">ti invitano a partecipare</string>
+    <string name="create_and_join_success">Crea e partecipa al successo della conferenza </string>
+    <string name="create_and_join_fail">Errore durante la creazione e partecipazione alla conferenza </string>
+    <!--Device controller error-->
+    <string name="e101">Impossibile trovare il dispositivo</string>
+    <string name="e102">Aggiornamento del dispositivo non riuscito, riprova più tardi</string>
+    <string name="e103">Impossibile trovare la relazione tra utente e dispositivo</string>
+    <string name="e104">Aggiornamento dello stato utente non riuscito, riprova più tardi</string>
+    <string name="e105">L\'utente è stato cancellato</string>
+    <string name="e106">Sconosciuto</string>
+    <string name="e107">Aggiornamento della relazione del dispositivo dell\'utente non riuscito, riprova più tardi</string>
+    <string name="e108">Il dispositivo è già stato associato</string>
+    <string name="e109">Impossibile trovare l\'utente</string>
+    <string name="e110">Aggiorna nome dispositivo non riuscito, riprova più tardi</string>
+    <string name="e111">Aggiornamento dello stato del dispositivo non riuscito, riprova più tardi</string>
+    <string name="e112">Impossibile trovare l\'ordine</string>
+    <string name="e113">nessun risultato trovato</string>
+    <string name="e114">Richiesta negata</string>
+    <string name="e115">Richiesta non valida</string>
+    <string name="e116">Sconosciuto</string>
+    <string name="e117">Il numero di utenti associati supera il limite</string>
+    <string name="e118">È l\'ultima versione</string>
+    <string name="e119">Errore numero seriale</string>
+    <string name="e120">Il dispositivo è attivato</string>
+    <string name="e121">Il dispositivo non esiste</string>
+    <string name="e122">Equilibrio insufficiente</string>
+    <string name="e123">Flusso di dati insufficiente</string>
+    <string name="e124">Utente bloccato</string>
+    <string name="e125">Il dispositivo si rifiuta di associare nuovi utenti</string>
+    <string name="e126">Il dispositivo è vincolato e non può essere rilegato</string>
+    <string name="e127">Errore di tipo associato</string>
+    <string name="e128">Errore del nome dell\'azienda</string>
+    <string name="e129">Accetta binding non riuscito</string>
+    <string name="e130">Accetta errore di tipo vincolante</string>
+    <string name="e131">Il dispositivo è attivato e non può essere riattivato</string>
+    <string name="e132">Il dispositivo non è attivato</string>
+    <string name="e133">Il dispositivo è attivato e non può essere riattivato</string>
+    <string name="e134">Il nome del dispositivo esiste già</string>
+    <string name="e135">Il dispositivo è attivato e non può essere riattivato</string>
+    <!--Upload controller error-->
+    <string name="e313">Errore nel formato delle proprietà ID utente</string>
+    <string name="e318">Salva l\'url del file nel database fallito, per favore riprova più tardi</string>
+    <string name="e327">Cambio del dispositivo associato dall\'utente</string>
+    <!--User controller error-->
+    <string name="e404">Aggiorna profilo utente non riuscito, riprova più tardi</string>
+    <string name="e405">Impossibile trovare l\'utente</string>
+    <string name="e406">Impossibile trovare l\'applicazione</string>
+    <string name="e407">Impossibile registrare l\'utente di posta elettronica</string>
+    <string name="e408">Timeout del codice di verifica</string>
+    <string name="e409">Errore del codice di verifica</string>
+    <string name="e410">Il nome utente esiste già</string>
+    <string name="e411">L\'indirizzo email dell\'utente esiste già</string>
+    <string name="e412">L\'indirizzo email dell\'utente non esiste</string>
+    <string name="e413">Aggiornamento del database fallito</string>
+    <string name="e414">Password errata</string>
+    <string name="e415">Il nome utente esiste già</string>
+    <string name="e416">Impossibile inviare email</string>
+    <string name="e417">Errore del token o della piattaforma dell\'utente</string>
+    <string name="e418">L\'utente è offline</string>
+    <!--Service error-->
+    <string name="e901">Il file non esiste</string>
+    <string name="e902">Il file esiste già</string>
+    <string name="error_code">codice di errore: %1$d</string>
+</resources>

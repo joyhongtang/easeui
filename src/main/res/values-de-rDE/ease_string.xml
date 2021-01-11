@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 德语!-->
+    <string name="video_call">Videoanruf</string>
+    <string name="delete_friend">Freund löschen</string>
+    <string name="delete_friend_notice">Sind Sie sicher, diesen Freund zu löschen ?</string>
+    <string name="add_friend_error_notice">Das Mitglied, das Sie hinzufügen müssen, registriert kein Video- und Sprachgespräch</string>
+    <string name="add_friend_empty_notice">Bitte geben Sie ein Konto ein</string>
+    <string name="im_video_call">Videoanruf</string>
+    <string name="im_voice_call">Sprachanruf</string>
+    <string name="im_del_friend">Freund löschen</string>
+    <string name="im_my_friend">Meine Freunde</string>
+    <string name="im_group_chat">Gruppenchat</string>
+    <string name="im_recent_call">Kürzliche Anrufe</string>
+    <string name="add_friend_notice1">Freund hinzufügen</string>
+    <string name="add_friend_notice2">Bitte geben Sie unten die Kontoadresse ein</string>
+    <string name="update_account_title">Nickername aktualisieren</string>
+    <string name="update_account_title_notice">Bitte geben Sie unten den Spitznamen ein</string>
+    <string name="im_call_to">Chattende Person</string>
+    <string name="im_call_start_time">Chat Zeit</string>
+    <string name="im_call_during">Chat-Dauer</string>
+    <string name="im_call_type">Chat-Typ</string>
+    <string name="im_call_type_sel_friend">Bitte wählen Sie den Freund aus</string>
+    <string name="im_call_type_sel_unable">Der ausgewählte Freund ist bereits im Chat</string>
+    <string name="im_video_call_tag">Video</string>
+    <string name="im_voice_call_tag">Stimme</string>
+    <string name="tips_invite_to_join_fix">lade dich ein, mitzumachen</string>
+    <string name="create_and_join_success">Erstellen und beteiligen Sie sich am Konferenzerfolg </string>
+    <string name="create_and_join_fail">Fehler beim Erstellen und Beitreten der Konferenz fehlgeschlagen </string>
+    <!--Device controller error-->
+    <string name="e101">Das Gerät konnte nicht gefunden werden</string>
+    <string name="e102">Aktualisierung des Geräts fehlgeschlagen. Bitte versuchen Sie es später erneut</string>
+    <string name="e103">Die Beziehung zwischen Benutzer und Gerät konnte nicht gefunden werden</string>
+    <string name="e104">Aktualisierung des Benutzerstatus fehlgeschlagen. Bitte versuchen Sie es später erneut</string>
+    <string name="e105">Der Benutzer wurde gelöscht</string>
+    <string name="e106">unbekannte</string>
+    <string name="e107">Aktualisierung der Benutzergerätebeziehung fehlgeschlagen. Bitte versuchen Sie es später erneut</string>
+    <string name="e108">Das Gerät wurde bereits gebunden</string>
+    <string name="e109">Der Benutzer konnte nicht gefunden werden</string>
+    <string name="e110">Aktualisierung des Gerätenamens fehlgeschlagen. Bitte versuchen Sie es später erneut</string>
+    <string name="e111">Aktualisierung des Gerätestatus fehlgeschlagen. Bitte versuchen Sie es später erneut</string>
+    <string name="e112">Die Bestellung konnte nicht gefunden werden</string>
+    <string name="e113">keine Ergebnisse gefunden</string>
+    <string name="e114">Anfrage abgelehnt</string>
+    <string name="e115">Ungültige Anfrage</string>
+    <string name="e116">unbekannte</string>
+    <string name="e117">Die Anzahl der gebundenen Benutzer überschreitet das Limit</string>
+    <string name="e118">Es ist die neueste Version</string>
+    <string name="e119">Seriennummernfehler</string>
+    <string name="e120">Das Gerät ist aktiviert</string>
+    <string name="e121">Das Gerät existiert nicht</string>
+    <string name="e122">Mangelhaftes Gleichgewicht</string>
+    <string name="e123">Unzureichender Datenfluss</string>
+    <string name="e124">Benutzer gesperrt</string>
+    <string name="e125">Das Gerät weigert sich, neue Benutzer zu binden</string>
+    <string name="e126">Das Gerät ist gebunden und kann nicht erneut gebunden werden</string>
+    <string name="e127">Fehler beim gebundenen Typ</string>
+    <string name="e128">Firmennamenfehler</string>
+    <string name="e129">Bindung akzeptieren fehlgeschlagen</string>
+    <string name="e130">Akzeptieren Sie den Bindungsfehler</string>
+    <string name="e131">Das Gerät ist aktiviert und kann nicht reaktiviert werden</string>
+    <string name="e132">Das Gerät ist nicht aktiviert</string>
+    <string name="e133">Das Gerät ist aktiviert und kann nicht reaktiviert werden</string>
+    <string name="e134">Der Gerätename existiert bereits</string>
+    <string name="e135">Das Gerät ist aktiviert und kann nicht reaktiviert werden</string>
+    <!--Upload controller error-->
+    <string name="e313">Fehler beim Formatieren der Benutzer-ID-Eigenschaft</string>
+    <string name="e318">Speichern der Datei-URL in die Datenbank fehlgeschlagen. Bitte versuchen Sie es später erneut</string>
+    <string name="e327">Benutzergebundene Geräteänderung</string>
+    <!--User controller error-->
+    <string name="e404">Aktualisierung des Benutzerprofils fehlgeschlagen. Bitte versuchen Sie es später erneut</string>
+    <string name="e405">Der Benutzer konnte nicht gefunden werden</string>
+    <string name="e406">Die Anwendung konnte nicht gefunden werden</string>
+    <string name="e407">E-Mail-Benutzer kann nicht registriert werden</string>
+    <string name="e408">Zeitlimit für Bestätigungscode</string>
+    <string name="e409">Fehler beim Bestätigungscode</string>
+    <string name="e410">Der Benutzername existiert bereits</string>
+    <string name="e411">Die E-Mail-Adresse des Benutzers ist bereits vorhanden</string>
+    <string name="e412">Die E-Mail-Adresse des Benutzers existiert nicht</string>
+    <string name="e413">Datenbankaktualisierung fehlgeschlagen</string>
+    <string name="e414">Falsches Passwort</string>
+    <string name="e415">Der Benutzername existiert bereits</string>
+    <string name="e416">E-Mail konnte nicht gesendet werden</string>
+    <string name="e417">Benutzer-Push-Token oder Plattformfehler</string>
+    <string name="e418">Benutzer war offline</string>
+    <!--Service error-->
+    <string name="e901">Die Datei existiert nicht</string>
+    <string name="e902">Die Datei existiert bereits</string>
+    <string name="error_code">Fehlercode: %1$d</string>
+</resources>

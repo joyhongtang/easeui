@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_incoming_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/notice_main"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/center_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginBottom="@dimen/dp_15"
+            android:id="@+id/tv_inviter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:text="@string/tips_invite_to_join_fix"
+            android:layout_toRightOf="@+id/tv_inviter_name"
+            android:layout_alignBottom="@+id/tv_inviter_name"
+            android:id="@+id/tv_update_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginBottom="@dimen/dp_15"
+        android:layout_above="@+id/center_tag"
+        android:layout_toRightOf="@+id/notice_main"
+        android:id="@+id/tv_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+    <View
+        android:id="@+id/center_tag"
+        android:layout_centerInParent="true"
+        android:layout_width="1dp"
+        android:layout_height="1dp"/>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/iv_call_anim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom"
+        android:layout_below="@+id/tv_inviter_name" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_30"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <!--拒绝接听-->
+            <ImageButton
+                android:layout_centerInParent="true"
+                android:id="@+id/btn_reject"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:background="@drawable/em_call_btn_bg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/em_call_hangup" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <!--接听通话-->
+            <ImageButton
+                android:layout_centerInParent="true"
+                android:id="@+id/btn_pickup"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:background="@drawable/em_call_btn_bg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/em_call_pickup" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

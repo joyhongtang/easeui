@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#00a7d4"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/layout_category_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_bottom">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_below="@+id/tab_bottom"
+                android:id="@+id/vp_category_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/tab_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_70"
+                android:layout_alignParentTop="true"
+                android:background="#0a85a6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/iv_back_e"
+                    android:layout_width="@dimen/dp_95"
+                    android:layout_height="@dimen/dp_52"
+                    android:src="@drawable/ic_back_selector"
+                    android:contentDescription="@null"
+                    />
+
+                <com.google.android.material.tabs.TabLayout
+                    app:tabBackground="@color/transparent"
+                    app:tabRippleColor="@color/transparent"
+                    app:tabIndicatorColor="#ffffff"
+                    android:id="@+id/layout_category_title"
+                    android:layout_width="450dp"
+                    android:layout_height="match_parent"
+                    app:tabGravity="fill"
+                    app:tabMaxWidth="0dp"
+                    app:tabMode="fixed"
+                    app:tabTextColor="#0a85a6" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="#01bcee"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="3dp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_15"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_margin="@dimen/dp_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.idwell.cloudframe.ui.tab.widget.CircleImageView
+                    android:id="@+id/icon"
+                    android:layout_centerVertical="true"
+                    android:layout_width="@dimen/dp_70"
+                    android:layout_height="@dimen/dp_70"
+                    android:src="@drawable/ic_avatar" />
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/admin"
+                    android:layout_width="@dimen/dp_70"
+                    android:layout_height="@dimen/dp_70"
+                    android:background="@drawable/ic_round_translucent"
+                    android:gravity="center"
+                    android:text="@string/admin"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/sp_14"
+                    android:visibility="invisible"
+                  />
+
+
+                <LinearLayout
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/dp_95"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Animation"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/account_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Animation"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/comm_voice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_above="@+id/comm_video"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_communication">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@mipmap/voice"
+                    android:drawablePadding="6dp"
+                    android:gravity="center"
+                    android:text="@string/im_voice_call"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/comm_video"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_above="@+id/delete"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_communication">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@mipmap/video"
+                    android:drawablePadding="6dp"
+                    android:gravity="center"
+                    android:text="@string/im_video_call"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/shape_actionsheet_top_normal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@mipmap/rm_icon"
+                    android:drawablePadding="6dp"
+                    android:gravity="center"
+                    android:text="@string/im_del_friend"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

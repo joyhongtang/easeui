@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 法语!-->
+    <string name="video_call">Appel vidéo</string>
+    <string name="delete_friend">Supprimer un ami</string>
+    <string name="delete_friend_notice">Êtes-vous sûr de vouloir supprimer cet ami ?</string>
+    <string name="add_friend_error_notice">Le membre que vous devez ajouter n’enregistre pas la vidéo et la conversation vocale</string>
+    <string name="add_friend_empty_notice">Veuillez entrer un compte</string>
+    <string name="im_video_call">Appel vidéo</string>
+    <string name="im_voice_call">Appel vocal</string>
+    <string name="im_del_friend">Supprimer un ami</string>
+    <string name="im_my_friend">Mes amis</string>
+    <string name="im_group_chat">Discussion de groupe</string>
+    <string name="im_recent_call">Appels récents</string>
+    <string name="add_friend_notice1">Ajouter un ami</string>
+    <string name="add_friend_notice2">Veuillez saisir l\'adresse du compte ci-dessous</string>
+    <string name="update_account_title">Mettre à jour le nom du pseudo</string>
+    <string name="update_account_title_notice">Veuillez saisir le pseudo ci-dessous</string>
+    <string name="im_call_to">Personne en conversation</string>
+    <string name="im_call_start_time">Temps de chat</string>
+    <string name="im_call_during">Durée du chat</string>
+    <string name="im_call_type">Type de chat</string>
+    <string name="im_call_type_sel_friend">Veuillez sélectionner l\'ami</string>
+    <string name="im_call_type_sel_unable">L\'ami sélectionné est déjà en discussion</string>
+    <string name="im_video_call_tag">Vidéo</string>
+    <string name="im_voice_call_tag">Voix</string>
+    <string name="tips_invite_to_join_fix">vous inviter à rejoindre</string>
+    <string name="create_and_join_success">Créer et rejoindre le succès de la conférence </string>
+    <string name="create_and_join_fail">Erreur de création et de participation à la conférence </string>
+
+    <!--Device controller error-->
+    <string name="e101">Impossible de trouver le périphérique</string>
+    <string name="e102">Echec de la mise à jour du périphérique. Veuillez réessayer ultérieurement.</string>
+    <string name="e103">Impossible de trouver la relation entre l\'utilisateur et l\'appareil</string>
+    <string name="e104">La mise à jour du statut de l\'utilisateur a échoué. Veuillez réessayer ultérieurement</string>
+    <string name="e105">L\'utilisateur a été supprimé</string>
+    <string name="e106">Inconnu</string>
+    <string name="e107">La mise à jour de la relation utilisateur-périphérique a échoué. Veuillez réessayer ultérieurement.</string>
+    <string name="e108">L\'appareil a déjà été lié</string>
+    <string name="e109">Impossible de trouver l\'utilisateur</string>
+    <string name="e110">Le nom du périphérique de mise à jour a échoué. Veuillez réessayer ultérieurement</string>
+    <string name="e111">La mise à jour de l\'état du périphérique a échoué. Veuillez réessayer ultérieurement</string>
+    <string name="e112">Impossible de trouver la commande</string>
+    <string name="e113">Aucun résultat trouvé</string>
+    <string name="e114">Demande refusée</string>
+    <string name="e115">Requête invalide</string>
+    <string name="e116">Inconnu</string>
+    <string name="e117">Le nombre d\'utilisateurs liés dépasse la limite</string>
+    <string name="e118">C\'est la dernière version</string>
+    <string name="e119">Erreur de numéro de série</string>
+    <string name="e120">L\'appareil est activé</string>
+    <string name="e121">L\'appareil n\'existe pas</string>
+    <string name="e122">Solde insuffisant</string>
+    <string name="e123">Flux de données insuffisant</string>
+    <string name="e124">Utilisateur verrouillé</string>
+    <string name="e125">L\'appareil refuse de lier de nouveaux utilisateurs</string>
+    <string name="e126">Le périphérique est lié et ne peut plus être lié</string>
+    <string name="e127">Erreur de type lié</string>
+    <string name="e128">Erreur de nom de société</string>
+    <string name="e129">Accepter la liaison a échoué</string>
+    <string name="e130">Accepter l\'erreur de type de liaison</string>
+    <string name="e131">L\'appareil est activé et ne peut pas être réactivé</string>
+    <string name="e132">L\'appareil n\'est pas activé</string>
+    <string name="e133">L\'appareil est activé et ne peut pas être réactivé</string>
+    <string name="e134">Le nom de l\'appareil existe déjà</string>
+    <string name="e135">L\'appareil est activé et ne peut pas être réactivé</string>
+    <!--Upload controller error-->
+    <string name="e313">Erreur de format de la propriété User-Id</string>
+    <string name="e318">L\'enregistrement de l\'URL du fichier dans la base de données a échoué. Veuillez réessayer ultérieurement</string>
+    <string name="e327">Changement de périphérique lié à l\'utilisateur</string>
+    <!--User controller error-->
+    <string name="e404">La mise à jour du profil utilisateur a échoué. Veuillez réessayer ultérieurement.</string>
+    <string name="e405">Impossible de trouver l\'utilisateur</string>
+    <string name="e406">Impossible de trouver l\'application</string>
+    <string name="e407">Impossible d\'enregistrer un utilisateur de messagerie</string>
+    <string name="e408">Délai d\'attente du code de vérification</string>
+    <string name="e409">Erreur du code de vérification</string>
+    <string name="e410">Cet identifiant existe déjà</string>
+    <string name="e411">L\'adresse email de l\'utilisateur existe déjà</string>
+    <string name="e412">L\'adresse email de l\'utilisateur n\'existe pas</string>
+    <string name="e413">La mise à jour de la base de données a échoué</string>
+    <string name="e414">Mauvais mot de passe</string>
+    <string name="e415">Cet identifiant existe déjà</string>
+    <string name="e416">Échec de l\'envoi du courrier électronique</string>
+    <string name="e417">Jeton push utilisateur ou erreur de plate-forme</string>
+    <string name="e418">L\'utilisateur a été déconnecté</string>
+    <!--Service error-->
+    <string name="e901">Fichier ne existe pas</string>
+    <string name="e902">Le fichier existe déjà</string>
+    <string name="error_code">code d\'erreur: %1$d</string>
+</resources>

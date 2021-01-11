@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="1.0px"
+    android:insetRight="1.0px" >
+
+    <selector>
+        <item android:state_pressed="true">
+            <shape>
+                <gradient
+                    android:angle="270.0"
+                    android:endColor="#666666"
+                    android:startColor="#666666" />
+
+                <corners
+                    android:bottomLeftRadius="17.0dip"
+                    android:bottomRightRadius="0dip"
+                    android:topLeftRadius="17.0dip"
+                    android:topRightRadius="0dip" />
+            </shape>
+        </item>
+        <item>
+            <shape>
+                <gradient
+                    android:angle="270.0"
+                    android:endColor="#666666"
+                    android:startColor="#666666" />
+
+                <corners
+                    android:bottomLeftRadius="17.0dip"
+                    android:bottomRightRadius="0dip"
+                    android:topLeftRadius="17.0dip"
+                    android:topRightRadius="0dip" />
+            </shape>
+        </item>
+    </selector>
+    <selector>
+        <item
+            android:state_pressed="false"
+            android:color="@color/error_item_color">
+            <shape>
+                <gradient
+                    android:angle="270.0"
+                    android:endColor="@color/error_item_color"
+                    android:startColor="@color/error_item_color" />
+
+                <corners
+                    android:bottomLeftRadius="17.0dip"
+                    android:bottomRightRadius="0dip"
+                    android:topLeftRadius="17.0dip"
+                    android:topRightRadius="0dip" />
+            </shape>
+        </item>
+        <item>
+            <shape>
+                <gradient
+                    android:angle="270.0"
+                    android:endColor="@color/error_item_color"
+                    android:startColor="@color/error_item_color" />
+
+                <corners
+                    android:bottomLeftRadius="17.0dip"
+                    android:bottomRightRadius="0dip"
+                    android:topLeftRadius="17.0dip"
+                    android:topRightRadius="0dip" />
+            </shape>
+        </item>
+    </selector>
+
+</inset>

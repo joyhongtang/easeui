@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@+id/comm_main"
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/comm_main"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/comm_voice"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_communication">
+
+            <TextView
+                android:id="@+id/cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@mipmap/voice"
+                android:drawablePadding="6dp"
+                android:gravity="center"
+                android:text="@string/im_voice_call"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@+id/comm_voice"
+            android:id="@+id/comm_video"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_communication">
+
+            <TextView
+                android:id="@+id/sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@mipmap/video"
+                android:drawablePadding="6dp"
+                android:gravity="center"
+                android:text="@string/im_video_call"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

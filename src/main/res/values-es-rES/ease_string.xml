@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 西班牙语!-->
+    <string name="video_call">Videollamada</string>
+    <string name="delete_friend">Eliminar amigo</string>
+    <string name="delete_friend_notice">¿Estás seguro de eliminar a este amigo? ?</string>
+    <string name="add_friend_error_notice">El miembro que necesita agregar no es registrar video y hablar de voz</string>
+    <string name="add_friend_empty_notice">Por favor ingrese cuenta</string>
+    <string name="im_video_call">Videollamada</string>
+    <string name="im_voice_call">Llamada de voz</string>
+    <string name="im_del_friend">Eliminar amigo</string>
+    <string name="im_my_friend">Mis amigos</string>
+    <string name="im_group_chat">Grupo de chat</string>
+    <string name="im_recent_call">Llamadas recientes</string>
+    <string name="add_friend_notice1">Añadir amigo</string>
+    <string name="add_friend_notice2">Por favor, introduzca la dirección de la cuenta a continuación</string>
+    <string name="update_account_title">Actualizar nombre de nicker</string>
+    <string name="update_account_title_notice">Por favor ingrese el nombre del nicker abajo</string>
+    <string name="im_call_to">Persona conversando</string>
+    <string name="im_call_start_time">Hora de chatear</string>
+    <string name="im_call_during">Duración del chat</string>
+    <string name="im_call_type">Tipo de chat</string>
+    <string name="im_call_type_sel_friend">Por favor selecciona el amigo</string>
+    <string name="im_call_type_sel_unable">El amigo seleccionado ya está en el chat</string>
+    <string name="im_video_call_tag">Vídeo</string>
+    <string name="im_voice_call_tag">Voz</string>
+    <string name="tips_invite_to_join_fix">te invito a unirte</string>
+    <string name="create_and_join_success">Crea y únete al éxito de la conferencia </string>
+    <string name="create_and_join_fail">Error al crear y unirse a la conferencia </string>
+    <!--Device controller error-->
+    <string name="e101">No se puede encontrar el dispositivo</string>
+    <string name="e102">Falló la actualización del dispositivo, por favor intente más tarde</string>
+    <string name="e103">No se puede encontrar la relación entre usuario y dispositivo</string>
+    <string name="e104">Error al actualizar el estado del usuario, por favor intente más tarde</string>
+    <string name="e105">El usuario ha sido eliminado</string>
+    <string name="e106">Desconocido</string>
+    <string name="e107">Error al actualizar la relación del dispositivo del usuario, inténtalo de nuevo más tarde</string>
+    <string name="e108">El dispositivo ya ha sido enlazado.</string>
+    <string name="e109">Incapaz de encontrar al usuario</string>
+    <string name="e110">Error al actualizar el nombre del dispositivo, inténtalo de nuevo más tarde</string>
+    <string name="e111">Error al actualizar el estado del dispositivo, inténtalo de nuevo más tarde</string>
+    <string name="e112">Incapaz de encontrar el pedido</string>
+    <string name="e113">No se han encontrado resultados</string>
+    <string name="e114">Solicitud rechazada</string>
+    <string name="e115">Solicitud no válida</string>
+    <string name="e116">Desconocido</string>
+    <string name="e117">El número de usuarios vinculados supera el límite</string>
+    <string name="e118">Es la ultima version</string>
+    <string name="e119">Error de número de serie</string>
+    <string name="e120">El dispositivo esta activado</string>
+    <string name="e121">El dispositivo no existe</string>
+    <string name="e122">Saldo insuficiente</string>
+    <string name="e123">Flujo de datos insuficiente</string>
+    <string name="e124">Usuario bloqueado</string>
+    <string name="e125">El dispositivo se niega a enlazar nuevos usuarios</string>
+    <string name="e126">El dispositivo está enlazado y no se puede enlazar de nuevo</string>
+    <string name="e127">Error de tipo de enlace</string>
+    <string name="e128">Error de nombre de la empresa</string>
+    <string name="e129">Aceptar enlace fallido</string>
+    <string name="e130">Aceptar error de tipo de enlace</string>
+    <string name="e131">El dispositivo está activado y no puede ser reactivado</string>
+    <string name="e132">El dispositivo no está activado</string>
+    <string name="e133">El dispositivo está activado y no puede ser reactivado</string>
+    <string name="e134">El nombre del dispositivo ya existe</string>
+    <string name="e135">El dispositivo está activado y no puede ser reactivado</string>
+    <!--Upload controller error-->
+    <string name="e313">Error de formato de propiedad de ID de usuario</string>
+    <string name="e318">Error al guardar la URL del archivo en la base de datos, inténtalo de nuevo más tarde</string>
+    <string name="e327">Cambio de dispositivo vinculado al usuario</string>
+    <!--User controller error-->
+    <string name="e404">Error al actualizar el perfil de usuario, por favor intente más tarde</string>
+    <string name="e405">Incapaz de encontrar al usuario</string>
+    <string name="e406">No se puede encontrar la aplicación</string>
+    <string name="e407">No se puede registrar el usuario de correo electrónico</string>
+    <string name="e408">Tiempo de espera del código de verificación</string>
+    <string name="e409">Error de código de verificación</string>
+    <string name="e410">El nombre de usuario ya existe</string>
+    <string name="e411">La dirección de correo electrónico del usuario ya existe</string>
+    <string name="e412">La dirección de correo electrónico del usuario no existe</string>
+    <string name="e413">Falló la actualización de la base de datos</string>
+    <string name="e414">Contraseña incorrecta</string>
+    <string name="e415">El nombre de usuario ya existe</string>
+    <string name="e416">Error al enviar correo electrónico</string>
+    <string name="e417">Error de token o plataforma del usuario</string>
+    <string name="e418">El usuario ha estado desconectado</string>
+    <!--Service error-->
+    <string name="e901">El archivo no existe</string>
+    <string name="e902">El archivo ya existe</string>
+    <string name="error_code">código de error: %1$d</string>
+</resources>
